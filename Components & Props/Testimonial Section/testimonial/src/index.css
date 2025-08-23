@@ -1,0 +1,50 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;}
+
+  .body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    background: rgb(207, 216, 228);
+
+  }
+
+  .cards{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+    padding: 20px;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px  rgb(200, 200, 200 , 1.5);
+
+  }
+
+  img{
+     border-radius: 50%;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+  
+    align-items: center;
+    margin-top: 20px;
+  }
